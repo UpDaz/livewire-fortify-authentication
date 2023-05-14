@@ -8,14 +8,12 @@ The main purpose of this project is to easily implement a user interface with lo
 
 It can be very usefull in an ecommerce tunnel for authenticate user without leaving the page.
 
---- 
 ## Installation
 
 Starting please make sure you are install and correctly configure Fortify and Livewire on your Laravel project.
 
 All needed files are in "app/Http/Livewire" and "resources/views/livewire" folders.
 
----
 
 ## How does it work ?
 
@@ -27,9 +25,12 @@ The project use 3 children components :
 
 Be carrefull for the forgot-password functionnality you have to define the "reset-password" routes (check "/routes/web.php" file)
 
----
-
 ## Customization
 
 On this repo, the project use [TailwindUi](https://tailwindui.com/) to display forms.
-Be free to use your own integration but you have to keep all inputs and all html attributs (starting by **wire:** to keep the component working)
+Be free to use your own integration but you have to keep all inputs and all html attributs (starting by "**wire:**" to keep the component working)
+
+---
+
+This project was made by :
+[<img src="https://www.updaz.fr/img/logo-blue.png" alt="logo Updaz" width="300px" />](https://www.updaz.fr)
