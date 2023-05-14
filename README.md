@@ -32,6 +32,10 @@ Be free to use your own integration but you have to keep all inputs and all html
 
 ---
 
-This project was made by :
+Made with love by :
 
 [<img src="https://www.updaz.fr/img/logo-blue.png" alt="logo Updaz" width="300px" />](https://www.updaz.fr)
+
+➡️ For more information : [www.updaz.fr](https://www.updaz.fr)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matthieu-dazord/)
