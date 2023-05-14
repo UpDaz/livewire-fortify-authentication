@@ -33,4 +33,5 @@ Be free to use your own integration but you have to keep all inputs and all html
 ---
 
 This project was made by :
+
 [<img src="https://www.updaz.fr/img/logo-blue.png" alt="logo Updaz" width="300px" />](https://www.updaz.fr)
