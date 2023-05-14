@@ -29,6 +29,7 @@ Be carrefull for the forgot-password functionnality you have to define the "rese
 ## Customization
 
 On this repo, the project use [TailwindUi](https://tailwindui.com/) to display forms.
+
 Be free to use your own integration but you have to keep all inputs and all html attributs (starting by "**wire:**" to keep the component working)
 
 ---
