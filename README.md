@@ -1,8 +1,8 @@
 # Livewire-Fortify-Authentication
 
 This project is based on [Laravel Framework](https://laravel.com/) and using two main packages : 
-- [Fortify](https://laravel.com/docs/10.x/fortify) for manage authentication
-- [Livewore](https://laravel-livewire.com/) for implement user interface
+- [Fortify](https://laravel.com/docs/10.x/fortify)
+- [Livewire](https://laravel-livewire.com/)
 
 The main purpose of this project is to easily implement a user interface with login/register/forgot-password functionnalities in the same place.
 
@@ -14,6 +14,7 @@ Starting please make sure you are install and correctly configure Fortify and Li
 
 All needed files are in "app/Http/Livewire" and "resources/views/livewire" folders.
 
+Just call the "Authentication" Livewire component with the Blade directive **@livewire('authentication')**
 
 ## How does it work ?
 
