@@ -3,9 +3,7 @@
 namespace App\Http\Livewire\Authentication;
 
 use App\Actions\Fortify\CreateNewUser;
-use App\Models\User;
-use Illuminate\Http\Request;
-use Laravel\Fortify\Fortify;
+use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 
 class Register extends Component
@@ -42,12 +40,13 @@ class Register extends Component
             'password_confirmation' => $this->password_confirmation,
         ]);
 
-        Fortify::authenticateUsing(function (Request $request) use ($user) {
-            $user = User::where('email', $user->email)->first();
-
-            if ($user) {
-                $this->emit('updateView', 'success');
-            }
-        });
+        if (
+            Auth::attempt([
+                'email' => $this->email,
+                'password' => $this->password,
+            ])
+        ) {
+            $this->emit('updateView', 'success');
+        }
     }
 }
